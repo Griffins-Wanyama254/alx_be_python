@@ -10,15 +10,13 @@ def perform_operation(num1: float, num2: float, operation: str):
     Returns:
         float | str: numeric result or an error message
     """
-    op = operation.strip().lower()
-
-    if op == "add":
+    if operation == "add":
         return num1 + num2
-    elif op == "subtract":
+    elif operation == "subtract":
         return num1 - num2
-    elif op == "multiply":
+    elif operation == "multiply":
         return num1 * num2
-    elif op == "divide":
+    elif operation == "divide":
         if num2 == 0:
             return "Error: Division by zero is not allowed"
         return num1 / num2

@@ -14,4 +14,5 @@ class BankAccount:
         return False
 
     def display_balance(self):
-        print(f"Current Balance: ${self.account_balance}")
+        # Match checker expected format
+        print("Current Balance:", f"${self.account_balance}")

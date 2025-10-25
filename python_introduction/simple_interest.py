@@ -1,4 +1,4 @@
-# File: simple_interest.py
+
 
 principal = 1000
 rate = 0.05
